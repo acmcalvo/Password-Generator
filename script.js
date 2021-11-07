@@ -68,26 +68,39 @@ function generatePassword() {
   if (numbers) {
     passwordCharSet += key_strings.number;
   };
-  
-//   Now are going to create the password string
+
+  // This is to check if all varible are apply 
+  if (
+    lowercase === false &&
+    uppercase === false &&
+    symbols === false &&
+    numbers === false
+  ) {
+    alert("Please select at least one character type.");
+    return generatePassword;
+   }
+   
+// else {
+//   Empty string to be fille based on for loop random characters aray
   var password = "";
+
   for (let i = 0; i < length; i++) {
     password += passwordCharSet
     [Math.floor(Math.random() * passwordCharSet.length)]
   };
-  
-  return password;
+ return password;
 }
 
-// Write password to the "password Number" input
+// Write password to the "password Numbers" input
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
   passwordText.value = password;
 }
-
+debugger;
 // 
 
 // Add event addEventlistener to generate button a
 generateBtn.addEventListener("click", writePassword);
+
 });
