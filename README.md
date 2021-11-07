@@ -1,19 +1,16 @@
-# Password-Generator
-Third assigment 
+# Password-Generator The third job provides basic HTML, CSS and JS files to complete this test k
 
-Basic HTML, CSS and JS files are provided to complete this tast 
-
-We need to create a secure password, that a meet criteria abouy lenght of characters
-included numbers, symbols, upper and lower case letter.
+We need to create a secure password, that a meet criteria about the length of characters
+including numbers, symbols, upper and lower case letter.
 
 I start with add Const "Block scoping" and whe a defined each variable
 
-I start generated password algoritment to make work:
+I started to generate encryption algorithms to work:
 
-ask if password is >=  to 8 or <= 128, to achieved leght of the password required.
-thet ask for the rest of requied to meet "customer ' criteria
+Ask if the password is >=  Use 8 or <= 128 to reach the required password length.
+than,  ask for the rest of required to meet  "customer " criteria
 
-Then check if user promt the basic information and now created the password
+Then, check if the user is give me the basic information and created a password
 
 
 
