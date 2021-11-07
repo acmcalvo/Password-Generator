@@ -5,7 +5,7 @@ including numbers, symbols, upper and lower case letter.
 
 I start with add Const "Block scoping" and whe a defined each variable
 
-<img width="600" alt="Screen Shot 2021-11-03 at 8 09 33 PM" src="https://user-images.githubusercontent.com/91921941/140666261-bccb7641-a464-4768-865e-ce6880a46a87.png">
+![Screen Shot 2021-11-07 at 6 39 47 PM](https://user-images.githubusercontent.com/91921941/140666285-989dfeb6-89aa-4217-a99c-b58c632eb2dc.png)
 
 I start with add Const "Block scoping" and whe a defined each variable
 
