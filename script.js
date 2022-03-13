@@ -40,7 +40,7 @@ function generatePassword() {
     
   }
   
-// Password need to meet lenght criterion, with a least 8 characters and no more than 128
+// Password need to meet length criterion, with a least 8 characters and no more than 128
   else {
     alert('Your password must be at least 8 characters and no more than 128 characters \nPlease enter a valid number between 8 & 128.')
     return '';
