@@ -69,7 +69,7 @@ function generatePassword() {
     passwordCharSet += key_strings.number;
   };
 
-  // This is to check if all varible are apply 
+  // This is to check if all variable are apply 
   if (
     lowercase === false &&
     uppercase === false &&
